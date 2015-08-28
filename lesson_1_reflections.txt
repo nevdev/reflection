@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By following the -/+(minus/plus) signs
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By using version control - using the dates(and commits) that were created
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Manual control has the flexibility to let you choose when the file will be commited or not. Auto-commit will check-in in the repo by time/action/size or whatever, in my opinion this can produced incomplete versions/commits on the repo. The only benefit an auto-commit has is just to provide the backup of what was the last changes but for auto-back I will try to find something else instead of the version-control or just commiting with the comment -backup.
+    
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git commit will store multiple files, related or not. If in case a file has some code dependency from another file in which for example a function signiture has to be altered then the change would be on both files. The other untouched files will be commited with it as well. Git users can see what files were altered or not in that version/commit. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will start displaying the commits from top(latest) and scrolling down until you find what you are looking, then press q to quit scrolling in order to perform further commmands. Git diff takes two argument, the comment id of that change that you want to investigate and  the following one; this will bring up details of what it has been added, deleted and/or deleted. In addition to git diff, if 'git diff --stat' is used, it will show a summary of the added/deleted changes in case you do not want to go in with such details with the 'git -diff'.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By going through each commit in history one can revert to previous  versions without losing or forget how it was before. It will put your mind at rest as as every change is persisted.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	
+	With the workspace set-up for Git it will make it more easy and pleasant to work with version-control. Notification, changes and prompts are easily notified
+	
+    Android Studio - saving file on line, go through history, and learn Git
